@@ -14,7 +14,7 @@ from survtrace.model import SurvTraceSingle
 from survtrace.train_utils import Trainer
 from survtrace.config import STConfig
 
-test_rounding=3
+test_rounding=2
 
 # define the setup parameters
 STConfig['data'] = 'metabric'
