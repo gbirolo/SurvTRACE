@@ -10,14 +10,15 @@ maintainers = [
 ]
 dependencies = [
     "easydict==1.9",
-    "scikit-survival==0.14.0",
-    "pandas==1.1.5",
+    "brotlipy",
+    "scikit-survival==0.21.0",
+    "pandas",
     "torchtuples==0.2.2",
-    "numpy==1.19.5",
-    "torch==1.9.1",
-    "matplotlib==3.3.4",
-    "pycox==0.2.2",
-    "scikit-learn",
+    "numpy",
+    "torch==1.12.1",
+    "matplotlib",
+    "pycox==0.2.3",
+    "scikit-learn==1.2.1",
 ]
 requires-python = ">=3.8"
 readme = "README.md"
