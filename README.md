@@ -1,3 +1,10 @@
+# WARNING: This is a fork
+
+This is a fork of the original SurvTrace code, meant to be used within my projects.
+No guarantees of any kind.
+
+----
+
 ## ⭐SurvTRACE: Transformers for Survival Analysis with Competing Events
 
 This repo provides the implementation of **SurvTRACE** for survival analysis. It is easy to use with only the following codes:

@@ -1,0 +1,38 @@
+[project]
+name = "survtrace"
+# version = "1.0"
+# description = "Surv{TRACE}: Transformers for Survival Analysis with Competing Events"
+authors = [
+    {name = "Zifeng Wang", email = "zifengw2@illinois.edu"},
+]
+maintainers = [
+    {name = "Ivan Rossi", email = "ivan.rossi@unito.it"}
+]
+dependencies = [
+    "easydict==1.9",
+    "scikit-survival==0.14.0",
+    "pandas==1.1.5",
+    "torchtuples==0.2.2",
+    "numpy==1.19.5",
+    "torch==1.9.1",
+    "matplotlib==3.3.4",
+    "pycox==0.2.2",
+    "scikit-learn",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Scientific/Engineering"
+]
+dynamic = ["description", "version"]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+
