@@ -17,7 +17,7 @@ dependencies:
   - pandoc
   - pycox=0.2.3
   - pytest
-  - python=3.10.9
+  - python=3.8.*
   - pytorch=1.12.1
   - scikit-learn=1.2.1
   - scikit-survival=0.21.0
@@ -26,9 +26,6 @@ dependencies:
   - tqdm
   - torchvision
   - lifelines
-  - pip
-  - pip:
-    - "auton-survival @ git+https://github.com/IvanUniTO/auton-survival.git@v1.0.1+tosa"
 # survtrace-specific part
   - brotlipy
   - easydict==1.9
